@@ -1,5 +1,6 @@
 import user1 from "../assets/images/user1.jpg"
 import user2 from "../assets/images/user2.jpg"
+import user3 from "../assets/images/rayhan.png"
 import SingleComment from "./SingleComment";
 import ReplyComment from "./ReplyComment";
 
@@ -30,7 +31,7 @@ const Comments = () => {
             <div className="bg-second p-5 flex gap-5 rounded-xl mt-10">
                 <div className="flex gap-x-5 w-full">
                     <div className="w-20">
-                        <img src={user2} alt="" className="h-12 w-12 rounded-full" />
+                        <img src={user3} alt="" className="h-12 w-12 rounded-full" />
                     </div>
                     <div className="w-full">
                         <textarea type="text" placeholder="Add a comment..." className="border min-w-full h-32 py-4 px-5 text-lg font-medium focus:ring-0 focus:outline-none rounded-lg" />
@@ -77,7 +78,7 @@ const comments = [
             },
             {
                 id: 2,
-                image: user2,
+                image: user3,
                 name: "juliusomo",
                 time: "2 days ago",
                 comment: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, temporibus labore qui ea quidem veritatis enim voluptates magnam, excepturi vitae vero fuga quam placeat nam. Quo, eligendi. Aliquid rerum facere blanditiis, ex.",

@@ -36,8 +36,8 @@ const Comments = () => {
                     <div className="w-full">
                         <textarea type="text" placeholder="Add a comment..." className="border min-w-full h-32 py-4 px-5 text-lg font-medium focus:ring-0 focus:outline-none rounded-lg" />
                     </div>
-                    <div className="w-32">
-                        <button className="bg-third text-second w-32 h-12 text-xl font-medium rounded-lg">SEND</button>
+                    <div className="w-28">
+                        <button className="bg-third text-second w-28 h-12 text-xl font-medium rounded-lg">SEND</button>
                     </div>
                 </div>
             </div>
